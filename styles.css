@@ -1,0 +1,141 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+/* ---- particles.js container ---- */
+#particles-js canvas.particles-js-canvas-el {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    z-index: -1;
+}
+
+header.navigation {
+    background-color: rgba(255, 255, 255, 0.85);
+}
+nav.navbar.navbar-expand-lg.bg-body-tertiary {
+    background-color: transparent !important;
+}
+
+a.nav-link {
+    border-bottom: 3px solid transparent;
+    background-color: transparent !important;
+    color: #000 !important;
+    border-radius: 0px;
+    transition: linear .5s;
+}
+
+a.nav-link:hover {
+    border-bottom: 3px solid #000;
+    background-color: transparent !important;
+    color: #000 !important;
+    border-radius: 0px;
+    transform: translateZ(110%);
+    transition: linear .5s;
+}
+a.nav-link.active {
+    border-bottom: 3px solid #000;
+    /* background-color: #000 !important; */
+    /* color: #fff !important; */
+    border-radius: 5px;
+    transform: translateZ(110%);
+    transition: linear .5s;
+}
+
+.banner-info {
+    display: flex;
+    align-items: center;
+    align-self: center;
+    flex-direction: row;
+    width: 100vw;
+    height: calc(100vh - 80px);
+}
+
+.banner-info>.row{
+    padding: 25px;
+    background-color: rgba(255, 255, 255, 0.75);
+}
+.banner-info > .row > .col {
+    margin: auto;
+}
+
+.profile-img {
+    display: block;
+    width: 100%;
+    max-width: 350px;
+    max-height: 350px;
+    max-width: max-content;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.headline-text {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.subline-text {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.info-text {
+    font-size: 1.2rem;
+    letter-spacing: .1rem;
+}
+
+.social-links {
+    font-size: 2rem;
+}
+
+section.about-me {
+    padding: 2vh 10vw;
+}
+
+section.about-me > div {
+    margin-bottom: 15px;
+}
+
+section.about-me .headline-text {
+    font-size: 1.5rem;
+}
+
+section.about-me .info-text {
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+.proficiency tbody tr>td {
+    padding: 10px;
+}
+.proficiency tbody tr:not(:last-child)>td {
+    border-bottom: 2px solid #c0c0c0;
+}
+
+.proficiency .skills a {
+    margin: auto 10px;
+}
+
+section.projects {
+    padding: 2vh 10vw;
+}
+
+.projects a.project-card {
+    text-decoration: none;
+    text-align: justify;
+}
+
+.projects a.project-card:hover > .card {
+    box-shadow: 0px 0px 15px -5px #8e9ff4;
+    border: 2px solid #8e9ff4;
+}
+
+.projects a.project-card>.card {
+    border: 2px solid transparent;
+    box-shadow: 0px 0px 15px -5px #979797;
+}
